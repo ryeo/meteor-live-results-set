@@ -1,0 +1,31 @@
+<head>
+  <title>Livedata</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="posts">
+      {{> posts}}
+    </div>
+  </div>
+</body>
+
+<template name="posts">
+  <h1>All Posts</h1>
+  <table id="all-posts" border="0">
+    <thead>
+      <tr>
+        <th style="width: 50px;">Order</th>
+        <th>Subject</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each posts}}
+        <tr>
+          <td>{{order}}</td>
+          <td><strong>{{subject}}</strong></td>
+        </tr>  
+      {{/each}}
+    </tbody>
+  </table>
+</template>

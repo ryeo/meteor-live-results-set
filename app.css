@@ -1,0 +1,24 @@
+/* CSS declarations go here */
+
+body {
+  font-size: 12pt;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid #cccccc;
+  padding: 4px;
+}
+
